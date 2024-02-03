@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Jockey One' rel='stylesheet'>
+    <title>The Dreams Cone & Cafe Restaurant</title>
+    <style>
+        body {
+            font-weight: lighter;
+            margin: 0;
+            padding: 0;
+            background-color: #097969;
+        }
+
+        header {
+            background-color: #097969;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            font-family: 'Jockey One';
+            text-decoration: none;
+            font-size: 25px;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: right;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .hero-image {
+            background-image: url('https://img.freepik.com/free-photo/flat-lay-delicious-square-pizza-board_23-2149235595.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: left;
+        }
+
+        h2 {
+            font-family: 'Jockey One';
+            color: #fff;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        h3{
+          font-family: 'Jockey One';
+        }
+        .menu {
+            display: flex;
+            flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+            overflow-x: auto; /* Enable horizontal scrolling */
+            justify-content: space-around;
+            margin-bottom: 20px; /* Add some bottom margin for space */
+        }
+
+        .menu-item {
+            background-color: #185D53;
+            color: #fff;
+            width: 200px;
+            height: 200px;
+            margin: 50px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .menu-item img {
+            max-width: 200px;
+            max-height:200px;
+            border-radius: 5px;
+            
+        }
+
+        #about{
+           background-color: white;
+           color: #185D53;
+        }
+
+        #about h2{
+            color: white;
+            background-color: #097969;
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        p{
+        color:black;
+        font-family: sans-serif;
+        font-size: 12px;
+        }
+
+
+        footer {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        @media screen and (max-width: 600px) {
+            header {
+                background-color: #097969;
+                color: #fff;
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            h1 {
+                font-size: 18px;
+                margin: 0;
+            }
+
+            nav {
+                display: flex;
+                justify-content: right;
+                padding: 5px;
+                margin-top: 10px;
+            }
+
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                padding: 10px;
+                font-size: 12px;
+                margin: 0 2px;
+                transition: color 0.3s;
+            }
+
+            .hero-image {
+                background-image: url('https://img.freepik.com/free-photo/flat-lay-delicious-square-pizza-board_23-2149235595.jpg');
+                background-size: cover;
+                background-position: center;
+                height: 200px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                text-align: left;
+            }
+
+            .menu {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                overflow-x: hidden; /* Hide horizontal scrollbar */
+            }
+
+            .menu-item {
+                width: 200px;
+                height: 200px;
+                color: #fff;
+                background-color: #185D53;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                border-radius: 5px;
+            }
+
+            .menu-item img {
+            
+            border-radius: 5px;
+            
+        }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Dreams Cone & Cafe Restaurant</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero-image">
+        <h2>Welcome to Your Restaurant</h2>
+    </section>
+
+    <section id="menu">
+
+        <h2>Our Menu</h2>
+        <div class="menu">
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/150" alt="Dish 1 Image">
+                <h3>Click Now</h3>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/150" alt="Dish 2 Image">
+                <h3>Dish 2</h3>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/150" alt="Dish 3 Image">
+                <h3>Dish 3</h3>
+            </div>
+
+            <!-- Repeat the menu items as needed -->
+
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="aboutus">
+        <h2>About Us</h2>
+        <p>Welcome to [Restaurant Name], where culinary artistry meets warm hospitality. Nestled in the heart of [Location], our restaurant is more than a dining destination; it's a celebration of flavors, stories, and shared experiences. Our journey began with a passion for creating exceptional meals that leave a lasting impression. From the carefully selected, locally sourced ingredients to the expert craftsmanship of our chefs, every dish at [Restaurant Name] tells a unique story on your plate.
+
+Step inside, and you'll discover an inviting atmosphere that mirrors the soul of our cuisine. The decor reflects our commitment to providing not just a meal but a complete sensory experience. At [Restaurant Name], we believe in culinary excellence as a form of art, and we take pride in our dedication to using the freshest ingredients to bring you dishes that awaken the palate.
+
+Our mission extends beyond serving delectable meals. We are committed to fostering a sense of community, both within our walls and in the neighborhood we call home. [Restaurant Name] actively engages with the local community through various initiatives and events, reinforcing our belief that good food has the power to bring people together.
+
+Meet the faces behind [Restaurant Name], a team driven by a shared love for culinary innovation and exceptional service. Each member contributes to the tapestry of experiences that make dining with us truly special.
+
+Whether you're a seasoned patron or a first-time visitor, we invite you to join us on this gastronomic journey. For reservations or inquiries, contact us at [provide contact information]. Thank you for choosing [Restaurant Name]. We look forward to creating lasting memories and indulging your senses with our culinary delights.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Restaurant Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
